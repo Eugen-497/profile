@@ -1,0 +1,107 @@
+head{
+  display: none;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  color: rgb(118, 118, 118);
+  font-size: 32px;
+  font-weight: 900;
+}
+
+body {
+  background: #eff0ef;
+  color: #2b3148;
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+a{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #4b52c1;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+h2{
+  color: #089128;
+  font-size: 20px;
+  font-weight: 900;
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+ul{
+  display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle{
+  border-radius: 40%;
+}
+
+.btn-blue{
+  background-color: blue;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.liste-line{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.liste-line i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+
+.liste-line li{
+  display: inline;
+  padding: 10px;
+}
+.fa {
+  font-family: "Font Awesome 5 Brands";
+}
+
+@media(max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
